@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:700" rel="stylesheet">
+    <title>Wow Bus</title>
+  </head>
+  <body>
+        <div class="container-fluid px-0">
+            <header>
+                <div class="row">
+                    <div class="col-4 col-md-2 logo">
+                        <img src="img/logo.png" alt="wow bus logo" />
+                    </div>
+                    <div class="col-6 col-md-8">
+                     <button class="d-md-none menu">Menu</button>
+                     <nav class="d-md-none">
+                            <ul class="list-mobile">
+                                    <li>
+                                        <a href="#">Strona główna</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">O nas</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">FAQ</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Kontakt</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Koszyk</a>
+                                    </li>
+                                </ul>
+                     </nav>
+                     <nav class="d-none d-md-block clearfix">
+                            <ul class="list">
+                                <li>
+                                    <a href="#">Strona główna</a>
+                                </li>
+                                <li>
+                                    <a href="#">O nas</a>
+                                </li>
+                                <li>
+                                    <a href="#">FAQ</a>
+                                </li>
+                                <li>
+                                    <a href="#">Kontakt</a>
+                                </li>
+                                <li>
+                                    <a href="#">Koszyk</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-2 col-md-2 language">
+                        <nav>
+                            <ul class="nav">
+                                <li class="nav-item">
+                                    <a href="#">PL</a>
+                                </li>
+                                <li class="nav-item border-right-0">
+                                    <a href="#">EN</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+            <section class="main-sec">
+                <h1>Podróżuj razem z nami <br />po całej Europie!</h1>
+                <div class="row mx-3">
+                        <form class="form-inline">
+                            <div class="form-group col-12 col-md-2">
+                                <label for="from">Z:</label>
+                                <select class="form-control" id="from">
+                                        <option>Kraków</option>
+                                        <option>Warszawa</option>
+                                        <option>Wrocław</option>
+                                        <option>Poznań</option>
+                                        <option>Praga</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-12 col-md-2">
+                                <label for="to">Do:</label>
+                                <select class="form-control" id="to">
+                                        <option>Kraków</option>
+                                        <option>Warszawa</option>
+                                        <option>Wrocław</option>
+                                        <option>Poznań</option>
+                                        <option>Praga</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-12 col-md-2">
+                                    <label for="datepicker">Odjazd:</label>
+                                    <input id="datepicker" type="date" />
+                            </div>
+                            <div class="form-group col-12 col-md-2">
+                                    <label for="amount">Ilość osób:</label>
+                                    <select class="form-control" id="amount">
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                    </select>
+                            </div>
+                            <div class="form-group col-12 col-md-4">
+                                <button type="submit" class="btn">Szukaj połączenia</button>
+                            </div>
+                        </form>
+                </div>
+            </section>
+            <section class="info-sec">
+                <div class="row">
+                    <div class="col-12 col-md-4" id="info-1">
+                        <p>Potwierdzenie rezerwacji w ciągu 5&nbsp;min</p>
+                    </div>
+                    <div class="col-12 col-md-4" id="info-2">
+                        <p>Jeździmy 7 dni w tygodniu</p>
+                    </div>
+                    <div class="col-12 col-md-4" id="info-3">
+                        <p>Bezpieczne płatności online</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-4" id="info-4">
+                        <p>Co 6 przejazd gratis!</p>
+                    </div>
+                    <div class="col-12 col-md-4" id="info-5">
+                        <p>Darmowe WiFi</p>
+                    </div>
+                    <div class="col-12 col-md-4" id="info-6">
+                        <p>Nowa i sprawdzona flota</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-4" id="info-7">
+                            <p>Darmowa woda</p>
+                        </div>
+                        <div class="col-12 col-md-4" id="info-8">
+                            <p>Przypomnienia SMS</p>
+                        </div>
+                        <div class="col-12 col-md-4" id="info-9">
+                            <p>Gwarancja zadowolenia</p>
+                        </div>
+                </div>
+            </section>
+            <section class="more-sec">
+                 <div class="row py-5 px-3">
+                    <div class="col-12 col-md-6">
+                        <h2><span class="green">Odkrywaj Europę</span> korzystając z naszych tanich biletów autobusowy</h2>
+                        <p>Nam et sollicitudin erat. Phasellus urna nibh, elementum in eni</p>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                    </div> 
+                    <div class="col-12 col-md-6">
+                        <h2><span class="green">Wyjazdy weekendowe</span> i&nbsp;wakacyjne w PolskiBusik.eu </h2>
+                        <p>Nam et sollicitudin erat. Phasellus urna nibh, elementum in eni</p>
+                        <p>Nam et sollicitudin erat. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+                    </div> 
+                 </div>
+            </section>
+            <footer>
+                <div class="row m-3 pt-5">
+                    <div class="col-12 col-md-3">
+                        <img src="img/Wow!Bus-logo_light.svg" alt="wow bus logo" />
+                        <div class="social">
+                            <p>Znajdź nas na...</p>
+                                 <a href="#" title="our social media">
+                                    <img src="img/social.png" alt="social media"/>
+                                </a>
+                            <p>Copyright PolskiBusik.eu 2018©.  All rights reserved.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <p>Firma</p>
+                        <ul class="footer-links">
+                            <li>
+                                <a href="#">O nas</a>
+                            </li>
+                            <li>
+                                <a href="#">FAQ</a>
+                            </li>
+                        </ul>   
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <p>Z Krakowa</p>
+                        <ul class="footer-links">
+                            <li>
+                                <a href="#">Autobusy Berlin - Szczecin</a>
+                            </li>
+                            <li>
+                                <a href="#">Autobusy Praga - Wrocław </a>
+                            </li>
+                            <li>
+                                <a href="#">Autobusy Berlin - Szczecin</a>
+                            </li>
+                            <li>
+                                <a href="#">Autobusy Berlin - Szczecin</a>
+                            </li>
+                        </ul>  
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <p>Do Krakowa</p>
+                        <ul class="footer-links">
+                            <li>
+                                <a href="#">Autobusy Berlin - Szczecin</a>
+                            </li>
+                            <li>
+                                <a href="#">Autobusy Praga - Wrocław </a>
+                            </li>
+                            <li>
+                                <a href="#">Autobusy Berlin - Szczecin</a>
+                            </li>
+                            <li>
+                                <a href="#">Autobusy Berlin - Szczecin</a>
+                            </li>
+                        </ul>  
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script src="script/script.js"></script> 
+</body>
+</html>
